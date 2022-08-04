@@ -1,0 +1,47 @@
+﻿<!--This is the html file that displays the main page of our e-portfolio-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tushar Tyagi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+
+    <p class="page-title" id="intro_page_title">Tushar Tyagi<span id="cursor">!</span></p>
+
+    <div>
+        <img id="profile_pic" class="center" src="profilepic.jpeg">
+        <p class="summary-content">
+            Computer Science Student @ <span id="ASU">ASU</span><br>
+            Graduating Fall 2024
+        </p>
+    </div>
+
+    <div class="center">
+        <button onclick="location.href='./projects.html'" class="toggle-button" id="projects_toggle">
+            ./projects
+        </button>
+        <button class="toggle-button" id="experience_toggle">
+            ./experience
+        </button>
+    </div>
+
+    <div style="position: fixed; bottom: 0; left: 0;">
+        <a target="_blank" href="https://instagram.com/tushar.dxb/">
+            <img src="instagram-brands.svg" height="50" width="50" alt="My Instagram">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/tushartyagidxb/">
+            <img src="linkedin-in-brands.svg" height="50" width="50" alt="My LinkedIn">
+        </a>
+        <a target="_blank" href="mailto:tushar.tyagi.dxb@gmail.com">
+            <img src="envelope-regular.svg" height="50" width="50" alt="Email">
+        </a>
+    </div>
+
+    <script src="./cursor.js"></script>
+
+</body>
+</html>
